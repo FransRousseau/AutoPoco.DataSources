@@ -7,7 +7,7 @@ namespace AutoPoco.DataSources
     {
         private readonly Random _random = new Random(1337);
 
-        public override string Next(IGenerationContext context)
+        public override String Next(IGenerationContext context)
         {
             var phoneNumber = "0";
             for (var ctr = 0; ctr < 9; ctr++)

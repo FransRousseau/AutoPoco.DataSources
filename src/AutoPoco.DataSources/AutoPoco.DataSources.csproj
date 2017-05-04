@@ -43,6 +43,7 @@
     <Compile Include="..\..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="AccountNumberSource.cs" />
     <Compile Include="BooleanSource.cs" />
     <Compile Include="CitySource.cs" />
     <Compile Include="CompanySource.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="EnumSource.cs" />
     <Compile Include="ExtendedEmailAddressSource.cs" />
     <Compile Include="FloatSource.cs" />
+    <Compile Include="FullNameSource.cs" />
     <Compile Include="IntegerSource.cs" />
     <Compile Include="DutchMiddlenameSource.cs" />
     <Compile Include="StreetSource.cs" />
